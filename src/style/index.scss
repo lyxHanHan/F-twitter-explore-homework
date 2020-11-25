@@ -1,3 +1,22 @@
 @import "variables";
 @import "mixins";
 @import "reboot";
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-button {
+  border-radius: 20px;
+  background-color: $body-bg;
+  border: 1px solid #1991da;
+  color: #1991da;
+  width: 60px;
+}
+.register-button {
+  border-radius: 20px;
+  background-color: $body-bg;
+  border: 1px solid #1991da;
+  color: #1991da;
+  width: 60px;
+}
